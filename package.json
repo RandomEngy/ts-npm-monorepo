@@ -1,0 +1,23 @@
+{
+    "name": "@ts-npm-mono/top",
+    "private": true,
+    "version": "1.0.0",
+    "workspaces": [
+        "packages/*"
+    ],
+    "description": "An example monorepo using Typescript and NPM Workspaces",
+    "scripts": {
+    },
+    "author": "",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/RandomEngy/ts-npm-monorepo.git"
+    },
+    "devDependencies": {
+      "typescript": "^4.5.4"
+    },
+    "dependencies": {
+    }
+  }
+  

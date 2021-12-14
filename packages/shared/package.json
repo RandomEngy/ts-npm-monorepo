@@ -1,0 +1,12 @@
+{
+    "name": "@ts-npm-mono/shared",
+    "version": "1.0.0",
+    "description": "Shared package in the Typescript NPM Monorepo example",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc -b"
+    },
+    "author": "",
+    "license": "MIT"
+}

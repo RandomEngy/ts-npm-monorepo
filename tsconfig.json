@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "Node",
+        "module": "ESNext",
+        "target": "ES2021",
+        "sourceMap": true,
+        "declaration": true,
+        "declarationMap": true,
+        "lib": [
+            "ES2021"
+        ],
+        "strict": true,
+        "composite": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "**/node_modules/**",
+        "**/*.spec.ts",
+        "**/dist/**/*"
+    ]
+}

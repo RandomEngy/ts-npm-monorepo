@@ -1,0 +1,19 @@
+{
+    "name": "@ts-npm-mono/app",
+    "version": "1.0.0",
+    "description": "App package in the Typescript NPM Monorepo example",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc -b"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "@ts-npm-mono/shared": "*",
+        "uuid": "^8.3.2"
+    },
+    "devDependencies": {
+        "@types/uuid": "^8.3.2"
+    }
+}
