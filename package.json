@@ -6,8 +6,6 @@
         "packages/*"
     ],
     "description": "An example monorepo using Typescript and NPM Workspaces",
-    "scripts": {
-    },
     "author": "",
     "license": "MIT",
     "repository": {
