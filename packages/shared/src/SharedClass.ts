@@ -1,7 +1,9 @@
+import { format } from "date-fns";
+
 export class SharedClass {
-    prop: string;
+    greeting: string;
 
     constructor() {
-        this.prop = "abc";
+        this.greeting = format(new Date(), "'Today is a' eeee");
     }
 }
