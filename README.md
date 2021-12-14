@@ -1,7 +1,7 @@
 # ts-npm-monorepo
 [NPM Workspaces](https://docs.npmjs.com/cli/v8/using-npm/workspaces) can be used to implement a monorepo: having multiple NPM packages in the same repository.
 
-This example includes a minimal example with Typescript.
+This repo contains a minimal example with Typescript.
 
 1. Run `npm i` at root
 2. Run `npm run build` in `packages/app/` or `packages/shared/`.
